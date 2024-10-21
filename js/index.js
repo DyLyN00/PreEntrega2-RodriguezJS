@@ -34,7 +34,7 @@ function jugar() {
     }
 }
 
-// Función para obtener un consejo aleatorio utilizando una función de orden superior
+// Función para obtener un consejo al azar utilizando una función de orden superior
 function obtenerConsejo(consejos) {
     let consejoAleatorio = consejos[Math.floor(Math.random() * consejos.length)];
     alert("Consejo del día: " + consejoAleatorio);
